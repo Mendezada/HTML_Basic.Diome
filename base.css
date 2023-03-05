@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    background-color: rgb(10, 10, 10);
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    overflow:hidden;
+    padding-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 6px 10px 6px 18px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu a:hover{
+    background-color: darkgrey;
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    margin-left: 150px;
+    padding: 0px 10px;
+    background-color: rgb(214, 0, 0);
+    text-align: center;
+    font-size: 25px;
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;   
+}
+
+.content {
+    background-color: rgb(236, 236, 236);
+    margin-left: 150px;
+    width: auto;    
+}
+
+.contato {
+    background-color: rgb(236, 236, 236);
+    margin-left: 150px;
+}
+
+.quemsomos {
+    background-color: rgb(236, 236, 236);
+    margin-left: 150px;
+}
+
+.footer { 
+    background-color: red;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.table, th, td {
+    border: 2px solid;
+    width: 140px;
+    text-align: center;
+    justify-content: center;
+  }
+
+.label {
+    margin-left: 680px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.serviços{
+    margin-left: 150px;
+}
+
+.img {
+    margin-left: 150px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
